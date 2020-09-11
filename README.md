@@ -3,6 +3,8 @@ C# wrapper for the Investec Programmable Banking Api.
 
 https://www.offerzen.com/community/investec/
 
+![.NET Core](https://github.com/ihiresolutions/investec-api-csharp-sdk/workflows/.NET%20Core/badge.svg?branch=master)
+
 ## Usage
 Create an implementation of the IConfiguration interface and pass that in as a parameter to the InvestecSDK.
 ```
