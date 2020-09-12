@@ -5,7 +5,7 @@
     <PackageProjectUrl>https://github.com/ihiresolutions/investec-api-csharp-sdk</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ihiresolutions/investec-api-csharp-sdk</RepositoryUrl>
     <Authors>iHire Solutions (Pty) Ltd</Authors>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
