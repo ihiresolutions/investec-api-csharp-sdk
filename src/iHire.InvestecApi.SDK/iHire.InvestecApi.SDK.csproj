@@ -2,13 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PackageProjectUrl>https://github.com/ihiresolutions/investec-api-csharp-sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ihiresolutions/investec-api-csharp-sdk</RepositoryUrl>
     <Authors>iHire Solutions (Pty) Ltd</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="..\..\config\GlobalAssemblyInfo.cs" Link="Properties\GlobalAssemblyInfo.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="IdentityModel" Version="4.4.0" />

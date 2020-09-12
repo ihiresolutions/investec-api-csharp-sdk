@@ -6,7 +6,9 @@ https://www.offerzen.com/community/investec/
 ![.NET Core](https://github.com/ihiresolutions/investec-api-csharp-sdk/workflows/.NET%20Core/badge.svg?branch=master)
 
 ## Usage
-Download the iHire.InvestecApi.SDK from nuget.org. Create an implementation of the IConfiguration interface and pass that in as a parameter to the InvestecSDK.
+Download the iHire.InvestecApi.SDK from nuget.org. https://www.nuget.org/packages/iHire.InvestecApi.SDK/
+
+Create an implementation of the IConfiguration interface and pass that in as a parameter to the InvestecSDK.
 ```
 IConfiguration configuration = new MyCustomConfiguration();
 var sdk = new InvestecSDK(configuration);
