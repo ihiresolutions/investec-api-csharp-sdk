@@ -25,9 +25,3 @@ jobs:
           PROJECT_FILE_PATH: src/iHire.InvestecApi.SDK/iHire.InvestecApi.SDK.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
           NUGET_SOURCE: https://api.nuget.org
-    - name: Publish FluentEmail.Smtp
-      uses: brandedoutcast/publish-nuget@v2.5.2
-      with:
-          PROJECT_FILE_PATH: src/Senders/FluentEmail.Smtp/FluentEmail.Smtp.csproj
-          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-          NUGET_SOURCE: https://api.nuget.org
