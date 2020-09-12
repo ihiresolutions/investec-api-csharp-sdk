@@ -37,3 +37,4 @@ jobs:
           PROJECT_FILE_PATH: src/iHire.InvestecApi.SDK/iHire.InvestecApi.SDK.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
           VERSION_FILE_PATH: 'config/GlobalAssemblyInfo.cs'
+          VERSION_REGEX: '(?<major>\d+)\.(?<minor>\d+)\.(?<build>\d+)\.(?<revision>\d+)$'
